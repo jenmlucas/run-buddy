@@ -126,3 +126,31 @@ section {
 }
 
 /*Hero style ends*/
+
+/*this is to center all the text*/
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+/* This makes the border go to the size of the text rather than the whole screen */
+    display: inline-block;
+/* this part above */    
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #fce138;
+
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+/*if width is under 100% use the below to center text, instead of the display: inline-block; */
+    margin: 0 auto;
+}
