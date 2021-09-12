@@ -337,6 +337,10 @@ section {
     font-style: normal;
 }
 
+.contact-info iframe {
+    height: 400px;
+  }
+  
 .contact-info a {
     color: #fce138;
 }
