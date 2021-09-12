@@ -149,9 +149,7 @@ section {
 
 /*this is to center all the text*/
 
-.intro {
-    text-align: center;
-}
+
 
 .intro p {
     line-height: 1.7;
@@ -160,21 +158,21 @@ section {
     font-size: 20px;
 /*if width is under 100% use the below to center text, instead of the display: inline-block; */
     margin: 0 auto;
+    text-align: center;
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
 .section-title {
     font-size: 55px;
-    display: inline-block;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid; 
-
+    padding-bottom: center;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -210,7 +208,7 @@ section {
 }
 
 .trainers {
-    text-align: center;
+    
 }
 
 .trainer {
@@ -241,6 +239,10 @@ section {
     text-align: right;
 }
 
+.flex-row{
+    display:flex;
+}
+
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -260,7 +262,6 @@ section {
 /*Reach out style starts*/
 
 .contact {
-    text-align: center;
     background: #024e76;
 }
 
