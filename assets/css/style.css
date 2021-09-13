@@ -1,15 +1,16 @@
 /*This removes built in margins that are defaulted.*/
+:root {
+    --primary-color: #fce138;  
+    --secondary-color: #024e76; 
+    --tertiary-color: #39a6b2; 
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root {
-    --primary-color: #fce138;  
-    --secondary-color: #024e76; 
-    --tertiary-color: #39a6b2; 
-}
 
 body {
     font-family: Helvetica, Arial, sans-serif;
@@ -24,7 +25,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -weeeeebkit-sticky;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-image: url("../images/hero-bg.jpg");
@@ -273,7 +274,7 @@ section {
     font-size: 48px;
     color: var(--secondary-color);
     border-bottom: 3px solid; 
-    padding-bottom: center;
+    padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
@@ -295,11 +296,10 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid var(--tertiary-color);
 }
 
 .step:not(:last-child) {
-    border-bottom: 1px solid var(--tertiary-color);
+    border-bottom: none;
 }
 
 .step h3 {
@@ -462,6 +462,11 @@ section {
   
 .contact-info a {
     color: var(--primary-color);
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
 }
 
 /*Reach out style ends */
