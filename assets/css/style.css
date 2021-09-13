@@ -108,10 +108,9 @@ section {
 }
 
 /*Hero Style Start*/
-.hero{
+.hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -137,17 +136,18 @@ section {
 }
 
 .hero-form {
-    background-color: rgba(255 ,225, 56, 0.8);
-    padding: 20px;
-    color: var(--secondary-color);
     border-style: solid;
     border-width: 3px; 
     border-color: var(--secondary-color);
     width: 40%;
+    background-color: rgba(255 ,225, 56, 0.8);
+    padding: 20px;
+    color: var(--secondary-color);
     margin: 3.5%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+    
 
 .hero-form p {
     margin: 5px 0 15px 0;
@@ -249,6 +249,7 @@ section {
 .checkbox-wrapper input:checked + label::after, .radio-wrapper input:checked + label::after {
     content: "";
 }
+
 
 /*Hero style ends*/
 
